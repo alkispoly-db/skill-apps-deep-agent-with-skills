@@ -1,0 +1,21 @@
+# Existing dependencies
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+
+# NEW - Deep Agent dependencies
+deepagents>=0.2.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+python-dotenv>=1.0.0
+
+# Model Provider integrations (install as needed)
+langchain-anthropic>=0.3.0      # For Anthropic (Claude)
+anthropic>=0.40.0               # Anthropic SDK
+langchain-openai>=0.2.0         # For OpenAI/Azure
+openai>=1.50.0                  # OpenAI SDK
+langchain-community>=0.3.0      # For Databricks and other providers
+databricks-sdk>=0.30.0          # Databricks SDK
+mlflow>=3.8.0                   # Required for Databricks provider

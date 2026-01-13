@@ -1,0 +1,18 @@
+# Databricks App Configuration
+# Description: {{APP_NAME}}
+
+command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+# Environment variables for the agent
+env:
+  - name: AGENT_PROVIDER
+    value: "databricks"
+  - name: AGENT_MODEL
+    value: "databricks-claude-sonnet-4-5"
+  - name: AGENT_AUTO_APPROVE
+    value: "true"
+  - name: AGENT_WORKSPACE
+    value: "/tmp/agent-workspace"
+
+# Note: DATABRICKS_HOST and DATABRICKS_TOKEN are automatically provided
+# by Databricks Apps using the workspace service principal identity
