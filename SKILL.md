@@ -180,26 +180,31 @@ AGENT_WORKSPACE=/tmp/agent-workspace
 
 ## Additional Resources
 
-For advanced scenarios, troubleshooting, and best practices:
-
 - **Advanced Usage**: See [advanced_usage.md](references/advanced_usage.md)
   - Custom configuration (multi-provider setup, environment variables)
   - Adding skills after generation
   - Local testing before deployment
-  - Troubleshooting common issues
-  - Tips and best practices
+
+- **Troubleshooting**: See [troubleshooting.md](references/troubleshooting.md)
+  - Authentication issues
+  - Deployment issues
+  - Skill validation errors
+
+- **Best Practices**: See [best_practices.md](references/best_practices.md)
+  - System prompt design guidelines
+  - Skill organization
+  - Deployment and security best practices
+  - Cost optimization and performance tuning
 
 - **Deployment Guide**: See [databricks_deployment.md](references/databricks_deployment.md)
   - Detailed deployment troubleshooting
   - Monitoring and logs
   - Multiple environments
-  - Cost optimization
 
 - **Architecture Overview**: See [architecture.md](references/architecture.md)
   - Deep agent system details
   - Provider implementations
   - Configuration patterns
-  - Skill system internals
 
 ## Requirements
 
